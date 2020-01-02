@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/react-hooks'
 import { setContext } from 'apollo-link-context'
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'http://intense-retreat-88705.herokuapp.com/'
 })
 
 // will set the jwt token as the authorization header
