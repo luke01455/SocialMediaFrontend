@@ -42,9 +42,6 @@ const DeleteButton = ({ postId, commentId, callback }) => {
         <Icon name="trash" style={{ margin: 0 }} />
       </Button>
       </MyPopup>
-      }
-      />
-
       <Confirm
         open={confirmOpen}
         onCancel={() => setConfirmOpen(false)}

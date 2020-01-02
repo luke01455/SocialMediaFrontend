@@ -16,8 +16,7 @@ function PostCard({
     username,
     likeCount,
     commentCount,
-    likes,
-    comments
+    likes
   }
 }) {
   const { user } = useContext(AuthContext);
